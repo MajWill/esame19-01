@@ -24,7 +24,3 @@ class Diff:
                 else:
                     raise ExamException("Errore: tipo non numerico all'interno della lista")
             return valori
-
-diff = Diff(-1)
-result = diff.compute([2,4,8,16])
-print(result)
